@@ -1,0 +1,26 @@
+/*************************************************************************
+    > File Name: express.cpp
+    > Author: DylanYang
+    > Mail: 13162687569@163.com 
+    > Created Time: 三  1/ 8 17:17:34 2020
+ ************************************************************************/
+
+#include <iostream>
+int main()
+{
+	using namespace std;
+	int x;
+	cout << "The expression x = 100 has the value ";
+	cout << (x=100) << endl;
+	cout << "Now x = " << x << endl;
+	cout << "The expression x < 3 has the value ";
+	cout << (x<3) << endl;
+	cout << "The expression x > 3 has the value ";
+	cout << (x>3) << endl;
+	cout.setf(ios_base::boolalpha);
+	cout << "The expression x < 3 has the value ";
+	cout << (x<3) << endl;
+	cout << "The expression x > 3 has the value ";
+	cout << (x>3) << endl;
+	return 0;
+}

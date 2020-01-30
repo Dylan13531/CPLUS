@@ -4,8 +4,8 @@
     > Mail: 13162687569@163.com 
     > Created Time: 三  1/29 14:46:39 2020
  ************************************************************************/
-#ifndef __bank_H__
-#define __bank_H__
+#ifndef _bank_H_
+#define _bank_H_
 #include <string>
 
 class BankAccount
